@@ -55,6 +55,22 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
+
+```
+## Run Docker
+
+```bash
+# postgres
+$ docker-compose up -d
+
+```
+
+# Run K6
+
+```bash
+# instalar e rodar os testes
+$ sudo snap install k6
+$ k6 run /load-testing/post.js
 ```
 
 ## Deployment
